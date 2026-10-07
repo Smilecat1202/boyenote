@@ -85,7 +85,7 @@
 
 如果你认可这件事，可以请作者喝杯咖啡。赞助不锁定任何功能，是对独立开发最直接的鼓励：
 
-- 国内：[爱发电](https://afdian.com)
+- 国内：[爱发电](https://afdian.com/a/cloudnote)
 - 海外：[Gumroad](https://gumroad.com)
 
 ## 📮 反馈与社区
