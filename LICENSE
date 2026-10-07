@@ -1,0 +1,17 @@
+Copyright (c) 2026 云舟笔记 CloudNote (GitHub: Smilecat1202). All Rights Reserved.
+
+云舟笔记是闭源软件。版权所有，保留一切权利。
+
+未经版权所有者事先书面许可，任何人不得：
+1. 复制、修改、合并、出版、分发、再授权本软件的可执行程序或其源代码；
+2. 对本软件进行反编译、反汇编、逆向工程，或以其他方式试图获取源代码；
+3. 去除、篡改本软件中的版权声明、签名或许可校验；
+4. 将本软件用于商业转售、出租或托管给第三方。
+
+特别说明：
+- 本软件创建和管理的用户笔记为开放的纯 Markdown（.md）文件，其所有权完全归用户，不受本版权声明限制；用户可随时以任何编辑器打开、导出或迁移自己的数据。
+- 本声明仅约束软件本身，不构成对用户个人数据的任何权利主张。
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT.

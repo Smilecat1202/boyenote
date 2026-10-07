@@ -1,0 +1,11 @@
+blank_issues_enabled: false
+contact_links:
+  - name: 常见问题
+    url: https://github.com/Smilecat1202/cloudnote/blob/main/docs/faq.md
+    about: 提交前先看看常见问题里是否已有答案。
+  - name: 快速开始
+    url: https://github.com/Smilecat1202/cloudnote/blob/main/docs/getting-started.md
+    about: 安装、配置同步与 AI 的图文指引。
+  - name: 邮件联系
+    url: mailto:hello@cloudnote.app
+    about: 商务合作或其他不便公开的事项。
