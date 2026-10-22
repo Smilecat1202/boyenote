@@ -6,7 +6,7 @@
   "publishedAt": "2026-10-07T16:03:53+08:00",
   "apk": {
     "arm64": {
-      "gitee": "https://gitee.com/guozhiyu/cloudnote/releases/download/v0.4.43/app-arm64-release.apk",
+      "gitee": "https://gitee.com/guozhiyu/boyenote/releases/download/v0.4.43/app-arm64-release.apk",
       "sha256": "cd84a9a041a4895fa35714c4125ebd18cfd1b7d2b618d5ef4781d983e6726f51"
     }
   }

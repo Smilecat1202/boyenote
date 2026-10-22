@@ -1,0 +1,49 @@
+{
+  "id": "sensevoice-small-int8",
+  "version": 1,
+  "totalBytes": 240193589,
+  "files": [
+    {
+      "name": "model.int8.onnx",
+      "size": 239233841,
+      "sha256": "c71f0ce00bec95b07744e116345e33d8cbbe08cef896382cf907bf4b51a2cd51",
+      "hf": "https://hf-mirror.com/csukuangfj/sherpa-onnx-sense-voice-zh-en-ja-ko-yue-2024-07-17/resolve/main/model.int8.onnx",
+      "r2": "https://models.boyenote.com/transcribe/model.int8.onnx",
+      "parts": [
+        {
+          "name": "model.int8.onnx.p00",
+          "size": 99614720,
+          "gitee": "https://gitee.com/guozhiyu/boyenote/releases/download/transcribe-models-v2/model.int8.onnx.p00"
+        },
+        {
+          "name": "model.int8.onnx.p01",
+          "size": 99614720,
+          "gitee": "https://gitee.com/guozhiyu/boyenote/releases/download/transcribe-models-v2/model.int8.onnx.p01"
+        },
+        {
+          "name": "model.int8.onnx.p02",
+          "size": 40004401,
+          "gitee": "https://gitee.com/guozhiyu/boyenote/releases/download/transcribe-models-v2/model.int8.onnx.p02"
+        }
+      ],
+      "github": "https://github.com/Smilecat1202/boyenote/releases/download/transcribe-models-v2/model.int8.onnx"
+    },
+    {
+      "name": "tokens.txt",
+      "size": 315894,
+      "sha256": "f449eb28dc567533d7fa59be34e2abca8784f771850c78a47fb731a31429a1dc",
+      "hf": "https://hf-mirror.com/csukuangfj/sherpa-onnx-sense-voice-zh-en-ja-ko-yue-2024-07-17/resolve/main/tokens.txt",
+      "r2": "https://models.boyenote.com/transcribe/tokens.txt",
+      "gitee": "https://gitee.com/guozhiyu/boyenote/raw/main/release/models/tokens.txt",
+      "github": "https://github.com/Smilecat1202/boyenote/releases/download/transcribe-models-v2/tokens.txt"
+    },
+    {
+      "name": "silero_vad.onnx",
+      "size": 643854,
+      "sha256": "9e2449e1087496d8d4caba907f23e0bd3f78d91fa552479bb9c23ac09cbb1fd6",
+      "r2": "https://models.boyenote.com/transcribe/silero_vad.onnx",
+      "gitee": "https://gitee.com/guozhiyu/boyenote/raw/main/release/models/silero_vad.onnx",
+      "github": "https://github.com/Smilecat1202/boyenote/releases/download/transcribe-models-v2/silero_vad.onnx"
+    }
+  ]
+}
