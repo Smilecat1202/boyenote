@@ -18,7 +18,7 @@ body:
     id: solution
     attributes:
       label: 你期望的方案
-      description: 你希望云舟怎么做
+      description: 你希望拨叶怎么做
     validations:
       required: true
   - type: textarea
