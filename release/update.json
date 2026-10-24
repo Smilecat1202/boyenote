@@ -1,0 +1,14 @@
+{
+  "version": "0.4.70",
+  "versionCode": 1360,
+  "publishedAt": "2026-10-24",
+  "required": false,
+  "notes": "本版本：\n· 正式接入应用内系统更新（公开仓清单 → 下载 → 系统安装器），移除内测期的本地更新\n· 移动端所见即所得表格编辑器：点单元格编辑、长按增删行列\n· 录音波形改为随声音起伏的居中对称波形\n· AI 助手「小叶」身份卡与动态上下文\n· 压缩原生库，安装包由约 120MB 降至约 72MB",
+  "apk": {
+    "arm64": {
+      "gitee": "https://gitee.com/guozhiyu/boyenote/releases/download/v0.4.70/cloudnote-0.4.70-android-arm64.apk",
+      "github": "https://github.com/Smilecat1202/boyenote/releases/download/v0.4.70/cloudnote-0.4.70-android-arm64.apk",
+      "sha256": "e97d252904ff7d17f4f72ab6a74d40616eb2d02789eb759b77489c4763e86fe4"
+    }
+  }
+}
