@@ -1,14 +1,14 @@
 {
-  "version": "0.4.70",
-  "versionCode": 1362,
+  "version": "0.4.71",
+  "versionCode": 1364,
   "publishedAt": "2026-10-25",
   "required": false,
-  "notes": "本版本：\n· 正式接入应用内系统更新（公开仓清单 → 下载 → 系统安装器），移除内测期的本地更新\n· 修复更新下载：关闭弹窗再打开会重新下载、进度来回跳（疑似两个下载并发）的问题；下载改为后台持续，重开弹窗看到实时进度\n· 智谱免费模型：默认模型更新为 glm-4.7-flash，模型列表把免费模型标出并置顶（含视觉免费模型 glm-4.6v-flash）\n· 移动端所见即所得表格编辑器：点单元格编辑、长按增删行列\n· 录音波形改为随声音起伏的居中对称波形\n· AI 助手「小叶」身份卡与动态上下文\n· 压缩原生库，安装包约 72MB",
+  "notes": "本版本：\n· 更新状态全局可见：关于页版本号下方直接显示「下载新版中…」或「新版已就绪」，点击直接进入下载进度/安装页，不再弹发现新版窗口、不用再点升级按钮\n· 下载完成后无论更新面板是否关闭，自动弹一次系统安装器\n· 切后台或 WebView 重建后，可重新挂回仍在进行的下载，不再丢失进度、不再并发两个下载\n· 修复智谱申请页跳转地址（登录后 404）\n· 修复智谱模型列表不显示免费模型：自动合并官方确认免费的模型并打标置顶（文本 glm-4.7-flash、glm-z1-flash、glm-4-flash-250414，视觉 glm-4.6v-flash 等）",
   "apk": {
     "arm64": {
-      "gitee": "https://gitee.com/guozhiyu/boyenote/releases/download/v0.4.70/cloudnote-0.4.70-android-arm64.apk",
-      "github": "https://github.com/Smilecat1202/boyenote/releases/download/v0.4.70/cloudnote-0.4.70-android-arm64.apk",
-      "sha256": "988abe44a6ab7e51503d8507270989e2de81c494c4d5ffd86429402f438ae672"
+      "gitee": "https://gitee.com/guozhiyu/boyenote/releases/download/v0.4.71/cloudnote-0.4.71-android-arm64.apk",
+      "github": "https://github.com/Smilecat1202/boyenote/releases/download/v0.4.71/cloudnote-0.4.71-android-arm64.apk",
+      "sha256": "8bc846d023cfdfa8a1dd9a6702c52ac0e93eed835a87042aaf0e47c0327f35c4"
     }
   }
 }
