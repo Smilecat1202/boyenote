@@ -3,7 +3,7 @@ name: Build Desktop (from relay source)
 # 公开仓 Actions 正常（私有代码仓 Actions 不运行）。
 # 源码不进公开仓：CI 经 relay /source（RELAY_TOKEN 鉴权）拉取私有源码包，
 # 原生构建 Windows x64 / macOS，再经 relay /upload 回传 Gitee 发布物仓。
-on:
+on: # rebuild marker r2
   workflow_dispatch:
     inputs:
       target:
