@@ -87,6 +87,12 @@ jobs:
         working-directory: build
         run: npm run tauri build -- --ci
 
+      - name: Build macOS sidecar (both arches)
+        if: steps.sel.outputs.skip != 'true' && matrix.target == 'macos'
+        shell: bash
+        working-directory: build
+        run: bash scripts/build-sidecar.sh mac
+
       - name: Build macOS universal
         if: steps.sel.outputs.skip != 'true' && matrix.target == 'macos'
         shell: bash
