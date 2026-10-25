@@ -1,14 +1,31 @@
 {
   "version": "0.4.80",
-  "versionCode": 1382,
+  "versionCode": 1383,
   "publishedAt": "2026-10-25",
   "required": false,
-  "notes": "本版本：\n· 「图文」保存改为主按钮：进 AI 识别大多是图文一起存，现在图文是实心品牌色整行大按钮，更醒目、不易点错\n· 「仅文字」「仅图片」弱化为描边小按钮，放在图文下方\n· 识别智谱 1305 平台过载，提示「当前模型访问量较大，稍等再试」，不再甩原始 JSON\n· 显式指定独立视觉模型后自动信任；强制开关仅在文本/视觉同模型时显示\n· 启动更新弹窗每天最多自动弹一次，「关于」行有更新时显示红点\n· 修复 AI 对话真机一直「思考中」无响应（改为命令轮询）、文档卡片与页签重叠、拍照权限与黑屏",
+  "notes": "本版本：\n· 「图文」保存改为主按钮：进 AI 识别大多是图文一起存，现在图文是实心品牌色整行大按钮，更醒目、不易点错\n· 「仅文字」「仅图片」弱化为描边小按钮，放在图文下方\n· 移动端与桌面端版本号各走各的：移动端按 apk 版本、桌面端按 desktop 版本，互不误触发\n· 识别智谱 1305 平台过载，提示「当前模型访问量较大，稍等再试」，不再甩原始 JSON\n· 显式指定独立视觉模型后自动信任；强制开关仅在文本/视觉同模型时显示\n· 启动更新弹窗每天最多自动弹一次，「关于」行有更新时显示红点\n· 修复 AI 对话真机一直「思考中」无响应（改为命令轮询）、文档卡片与页签重叠、拍照权限与黑屏",
   "apk": {
+    "version": "0.4.80",
+    "versionCode": 1383,
     "arm64": {
       "gitee": "https://gitee.com/guozhiyu/boyenote/releases/download/v0.4.80/cloudnote-0.4.80-android-arm64.apk",
       "github": "https://github.com/Smilecat1202/boyenote/releases/download/v0.4.80/cloudnote-0.4.80-android-arm64.apk",
-      "sha256": "dae608151f5592158398b1866dcbf9a607f1e36bdc69feeae739f6a455693b53"
+      "sha256": "0bc74495d347ef9bdd94c8f3a9faf999d815e562efa05ac76871391042c86076"
+    }
+  },
+  "desktop": {
+    "version": "0.4.79",
+    "macos": {
+      "aarch64": {
+        "gitee": "https://gitee.com/guozhiyu/boyenote/releases/download/v0.4.79/拨叶笔记_0.4.79_aarch64.dmg",
+        "sha256": "a6b17a282e7ad0fc53a2550ae0945bbd52b2862fd18a87feee048d0951f2b1d6"
+      }
+    },
+    "windows": {
+      "x64": {
+        "gitee": "https://gitee.com/guozhiyu/boyenote/releases/download/v0.4.79/拨叶笔记_0.4.79_x64-setup.exe",
+        "sha256": "5509e9c5095f0220825a01d4b0856741628902e15879e6f7e438c8025a7811f7"
+      }
     }
   }
 }
