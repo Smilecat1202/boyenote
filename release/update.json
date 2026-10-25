@@ -1,16 +1,16 @@
 {
-  "version": "0.4.81",
-  "versionCode": 1384,
+  "version": "0.4.82",
+  "versionCode": 1385,
   "publishedAt": "2026-10-25",
   "required": false,
-  "notes": "本版本：\n· 移动端「回顾」修复：模板文件夹里的脚手架（含 {{date}} 等占位符）和看板定义不再进入回顾卡片，与桌面端口径一致\n· 「图文」保存改为主按钮：实心品牌色整行大按钮，「仅文字」「仅图片」弱化为描边小按钮\n· 移动端与桌面端版本号各走各的：移动端按 apk 版本、桌面端按 desktop 版本，互不误触发\n· 桌面 macOS 改为 universal 通用 DMG（Intel + Apple Silicon 合一）\n· 识别智谱 1305 平台过载，提示「当前模型访问量较大，稍等再试」，不再甩原始 JSON\n· 显式指定独立视觉模型后自动信任；强制开关仅在文本/视觉同模型时显示\n· 启动更新弹窗每天最多自动弹一次，「关于」行有更新时显示红点\n· 修复 AI 对话真机一直「思考中」无响应（改为命令轮询）、文档卡片与页签重叠、拍照权限与黑屏",
+  "notes": "本版本：\n· 修复录音转写后「AI 校正中」一直转圈、不结束：模型连接挂起触发看门狗后，真机 Rust 流会停掉轮询却不收尾，导致状态永久卡死；现超时后正确收尾并落回原始转写\n· 移动端「回顾」排除模板文件夹脚手架与看板，与桌面端一致\n· 「图文」保存改为实心品牌色主按钮，「仅文字/仅图片」弱化为描边小按钮\n· 移动端与桌面端版本号各走各的，互不误触发\n· 启动更新弹窗每天最多自动弹一次，「关于」行有更新时显示红点\n· 修复 AI 对话真机一直「思考中」无响应、文档卡片与页签重叠、智谱 1305 过载提示",
   "apk": {
-    "version": "0.4.81",
-    "versionCode": 1384,
+    "version": "0.4.82",
+    "versionCode": 1385,
     "arm64": {
-      "gitee": "https://gitee.com/guozhiyu/boyenote/releases/download/v0.4.81/cloudnote-0.4.81-android-arm64.apk",
-      "github": "https://github.com/Smilecat1202/boyenote/releases/download/v0.4.81/cloudnote-0.4.81-android-arm64.apk",
-      "sha256": "48846a8d3b40d6a4f6295d9886d2427522a2a74bb8380c13b4663739f0d04559"
+      "gitee": "https://gitee.com/guozhiyu/boyenote/releases/download/v0.4.82/cloudnote-0.4.82-android-arm64.apk",
+      "github": "https://github.com/Smilecat1202/boyenote/releases/download/v0.4.82/cloudnote-0.4.82-android-arm64.apk",
+      "sha256": "818d25ad6b87a436d6c34e32ce9dda0b04c6f71df422d5bcbfcfd4e818b73ee8"
     }
   },
   "desktop": {
