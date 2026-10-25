@@ -1,14 +1,14 @@
 {
-  "version": "0.4.76",
-  "versionCode": 1374,
+  "version": "0.4.77",
+  "versionCode": 1376,
   "publishedAt": "2026-10-25",
   "required": false,
-  "notes": "本版本：\n· 更新提示改为非打扰式：启动静默检查发现新版不再自动弹窗，只在「我的 → 关于拨叶笔记」行点亮红点，点进去直接显示「发现新版本」\n· 关于页更新行直接显示「发现新版本 vX」，不再是「检查更新」；下载中/已就绪/未完成也都有对应状态\n· AI 助手「已连接」卡片直接显示文本、视觉两个模型\n· 修复 AI 对话真机一直「思考中」无响应（改为命令轮询），免费模型正常逐字回答\n· 文本模型与视觉模型分开设置，可同可不同\n· 修复文档卡片与页签重叠、拍照权限与黑屏",
+  "notes": "本版本：\n· 恢复启动更新弹窗：发现新版会自动弹一次，但每天最多自动弹一次，避免打扰；用户点「以后再说」的版本不再自动弹\n· 「我的 → 关于拨叶笔记」行有更新时显示红点，点进去直接显示「发现新版本」（主流 App 方案）\n· AI 助手「已连接」卡片直接显示文本、视觉两个模型\n· 修复 AI 对话真机一直「思考中」无响应（改为命令轮询），免费模型正常逐字回答\n· 文本模型与视觉模型分开设置，可同可不同\n· 修复文档卡片与页签重叠、拍照权限与黑屏",
   "apk": {
     "arm64": {
-      "gitee": "https://gitee.com/guozhiyu/boyenote/releases/download/v0.4.76/cloudnote-0.4.76-android-arm64.apk",
-      "github": "https://github.com/Smilecat1202/boyenote/releases/download/v0.4.76/cloudnote-0.4.76-android-arm64.apk",
-      "sha256": "f41ac4e1c8c331d7595773b8bb0d29b487c52a71be85562aa03545ebddf56672"
+      "gitee": "https://gitee.com/guozhiyu/boyenote/releases/download/v0.4.77/cloudnote-0.4.77-android-arm64.apk",
+      "github": "https://github.com/Smilecat1202/boyenote/releases/download/v0.4.77/cloudnote-0.4.77-android-arm64.apk",
+      "sha256": "34587b8d9db27dae0b9b6e6d062a82838d97bce499c735aa0035325e8ab66fce"
     }
   }
 }
