@@ -1,16 +1,16 @@
 {
-  "version": "0.4.83",
-  "versionCode": 1386,
-  "publishedAt": "2026-10-25",
+  "version": "0.4.84",
+  "versionCode": 1387,
+  "publishedAt": "2026-10-26",
   "required": false,
-  "notes": "本版本：\n· 同步：弱网/慢上行文件的延后冷却改为逐级拉长（10→30→60 分钟封顶），避免传不上去的文件每 10 分钟被自动重试、云端图标无限转圈\n· 录音转写：固定中文识别，修复口齿不清/童声/噪音被误判成日韩而冒出大段外文\n· AI 校正：数字统一格式（不再出现「十0」「1一」混写）、外文按读音还原或删除\n· AI 模型页：所有服务商平级展示，智谱标签由「永久免费」改为「有免费模型」",
+  "notes": "本版本：\n· 录音转写完成后自动存到今天速记，不用再手动点保存\n· 速记卡片顶部多一条音频条，点一下回放录音，带波形和进度\n· 录音只留在本机，不上传、不随笔记同步；同步的只有文字（换设备能看到文字、听不到录音）\n· 录音抽屉里已存过的速记显示「已存到速记」，不会重复保存",
   "apk": {
-    "version": "0.4.83",
-    "versionCode": 1386,
+    "version": "0.4.84",
+    "versionCode": 1387,
     "arm64": {
-      "gitee": "https://gitee.com/guozhiyu/boyenote/releases/download/v0.4.83/cloudnote-0.4.83-android-arm64.apk",
-      "github": "https://github.com/Smilecat1202/boyenote/releases/download/v0.4.83/cloudnote-0.4.83-android-arm64.apk",
-      "sha256": "3729d9370aff029a767c39492a7a38dac049f321a95ac0d91bfc8fd52a4cbb0e"
+      "gitee": "https://gitee.com/guozhiyu/boyenote/releases/download/v0.4.84/cloudnote-0.4.84-android-arm64.apk",
+      "github": "https://github.com/Smilecat1202/boyenote/releases/download/v0.4.84/cloudnote-0.4.84-android-arm64.apk",
+      "sha256": "f8cf0f4561b59a65bb67d9195e922ad4575e3a1f3e7f912b793454daf6513fd6"
     }
   },
   "desktop": {
