@@ -18,17 +18,17 @@
     "macos": {
       "aarch64": {
         "gitee": "https://gitee.com/guozhiyu/boyenote/releases/download/v0.4.86/拨叶笔记_0.4.86_universal.dmg",
-        "sha256": "875f35dfc479184451b63611d47efe0f739434ebaf62954e0c39e0724353740d"
+        "sha256": "02123ff71fdb90b34db1a00379bb13dde5573b5585e76afe2969908bdda0faa9"
       },
       "x64": {
         "gitee": "https://gitee.com/guozhiyu/boyenote/releases/download/v0.4.86/拨叶笔记_0.4.86_universal.dmg",
-        "sha256": "875f35dfc479184451b63611d47efe0f739434ebaf62954e0c39e0724353740d"
+        "sha256": "02123ff71fdb90b34db1a00379bb13dde5573b5585e76afe2969908bdda0faa9"
       }
     },
     "windows": {
       "x64": {
         "gitee": "https://gitee.com/guozhiyu/boyenote/releases/download/v0.4.86/拨叶笔记_0.4.86_x64-setup.exe",
-        "sha256": "becbaa03ab918800287e1f95be1fdbb2e44263565d88558a77301c4bbb12505c"
+        "sha256": "ed634d2aef31557e0cbf5d1e74e6250c0b60f6fb0783d0446310f9fcaf9d9cdc"
       }
     }
   }
