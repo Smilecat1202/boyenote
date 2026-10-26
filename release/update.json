@@ -14,21 +14,21 @@
     }
   },
   "desktop": {
-    "version": "0.4.80",
+    "version": "0.4.86",
     "macos": {
       "aarch64": {
-        "gitee": "https://gitee.com/guozhiyu/boyenote/releases/download/v0.4.80/拨叶笔记_0.4.80_universal.dmg",
-        "sha256": "261ebcc5e9bfa7cff03e21d5f81b29f031c29f011a81f4b9b35385c83bf7"
+        "gitee": "https://gitee.com/guozhiyu/boyenote/releases/download/v0.4.86/拨叶笔记_0.4.86_universal.dmg",
+        "sha256": "875f35dfc479184451b63611d47efe0f739434ebaf62954e0c39e0724353740d"
       },
       "x64": {
-        "gitee": "https://gitee.com/guozhiyu/boyenote/releases/download/v0.4.80/拨叶笔记_0.4.80_universal.dmg",
-        "sha256": "261ebcc5e9bfa7cff03e21d5f81b29f031c29f011a81f4b9b35385c83bf7"
+        "gitee": "https://gitee.com/guozhiyu/boyenote/releases/download/v0.4.86/拨叶笔记_0.4.86_universal.dmg",
+        "sha256": "875f35dfc479184451b63611d47efe0f739434ebaf62954e0c39e0724353740d"
       }
     },
     "windows": {
       "x64": {
-        "gitee": "https://gitee.com/guozhiyu/boyenote/releases/download/v0.4.80/拨叶笔记_0.4.80_x64-setup.exe",
-        "sha256": "3e1cd4808712e37ed5cec0870f434fb0f02f031c29f011a81f4b9b3538635380905a2"
+        "gitee": "https://gitee.com/guozhiyu/boyenote/releases/download/v0.4.86/拨叶笔记_0.4.86_x64-setup.exe",
+        "sha256": "becbaa03ab918800287e1f95be1fdbb2e44263565d88558a77301c4bbb12505c"
       }
     }
   }
