@@ -1,9 +1,9 @@
 {
-  "version": "0.4.86",
+  "version": "0.4.87",
   "versionCode": 1406,
   "publishedAt": "2026-10-27",
   "required": false,
-  "notes": "本版本：\n· 速记录音对齐：录音和转写文字存到同一条速记，速记里可直接回放录音（音频仅存本机、不上传）\n· 修复录音列表音频控件偶发显示「错误」\n· 更新弹窗可关闭、后台继续下载；更新后正常重启\n· 修复 Windows 图谱节点过大、麦克风权限引导、模型管理显示语音模型\n· 修复同步进度条与冷启动同步误判，云图标不再卡在 99%\n· 优化 Windows 设置切换流畅度；修复未打开库时从云端恢复库失败",
+  "notes": "本版本：\n· 录音结束自动存进当天速记，和手机端一致（音频只在本机、不上传）\n· 录音和速记卡片加了波形，点波形能跳转播放\n· 修复麦克风、打开笔记库权限反复弹窗\n· 修复实时转写文字一闪一闪",
   "apk": {
     "version": "0.4.86",
     "versionCode": 1406,
@@ -14,21 +14,21 @@
     }
   },
   "desktop": {
-    "version": "0.4.86",
+    "version": "0.4.87",
     "macos": {
       "aarch64": {
-        "gitee": "https://gitee.com/guozhiyu/boyenote/releases/download/v0.4.86/拨叶笔记_0.4.86_universal.dmg",
-        "sha256": "c47938b92be90a6cf670c3ff0a3f8f78d52965885b0b01da48fd29701638acaf"
+        "gitee": "https://gitee.com/guozhiyu/boyenote/releases/download/v0.4.87/拨叶笔记_0.4.87_universal.dmg",
+        "sha256": "df85022217351b03bd75d593f6cbc275ef8e70c30d72612c1172527bc2bc3e6e"
       },
       "x64": {
-        "gitee": "https://gitee.com/guozhiyu/boyenote/releases/download/v0.4.86/拨叶笔记_0.4.86_universal.dmg",
-        "sha256": "c47938b92be90a6cf670c3ff0a3f8f78d52965885b0b01da48fd29701638acaf"
+        "gitee": "https://gitee.com/guozhiyu/boyenote/releases/download/v0.4.87/拨叶笔记_0.4.87_universal.dmg",
+        "sha256": "df85022217351b03bd75d593f6cbc275ef8e70c30d72612c1172527bc2bc3e6e"
       }
     },
     "windows": {
       "x64": {
-        "gitee": "https://gitee.com/guozhiyu/boyenote/releases/download/v0.4.86/拨叶笔记_0.4.86_x64-setup.exe",
-        "sha256": "78547f4f05805edee5e6a33b48a350c07be3bbaecb43ee802932847e369e7d3d"
+        "gitee": "https://gitee.com/guozhiyu/boyenote/releases/download/v0.4.87/拨叶笔记_0.4.87_x64-setup.exe",
+        "sha256": "194a4c04d60e68323c44d27e61c51f28bd72d8df59e5e4fac41d0d76c58cd081"
       }
     }
   }
