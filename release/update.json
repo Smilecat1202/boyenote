@@ -1,9 +1,9 @@
 {
-  "version": "0.4.88",
-  "versionCode": 1406,
+  "version": "0.4.89",
+  "versionCode": 1407,
   "publishedAt": "2026-10-27",
   "required": false,
-  "notes": "本版本：\n· 修复实时转写不出字（麦克风没声音时会直接提示）\n· 录音播放器恢复波形，点波形能跳转\n· 点停止立刻有反应，不再卡几秒",
+  "notes": "本版本：\n· 修复 Windows 应用内更新：点立即重启后会正常安装、自动重启，版本不再停留旧版\n· 设置页切换标签不再卡顿（改为按需加载）",
   "apk": {
     "version": "0.4.86",
     "versionCode": 1406,
@@ -14,21 +14,21 @@
     }
   },
   "desktop": {
-    "version": "0.4.88",
+    "version": "0.4.89",
     "macos": {
       "aarch64": {
-        "gitee": "https://gitee.com/guozhiyu/boyenote/releases/download/v0.4.88/%E6%8B%A8%E5%8F%B6%E7%AC%94%E8%AE%B0_0.4.88_universal.dmg",
-        "sha256": "91c986f0b25d9da7ae78238d5c2f12ba6c904e98b73a29148b1e0fc6a0f6a29a"
+        "gitee": "https://gitee.com/guozhiyu/boyenote/releases/download/v0.4.89/%E6%8B%A8%E5%8F%B6%E7%AC%94%E8%AE%B0_0.4.89_universal.dmg",
+        "sha256": "50cdac1caf1761afceec115a9ad015c28583d81f8027e2ba616cf2e1b102cdb7"
       },
       "x64": {
-        "gitee": "https://gitee.com/guozhiyu/boyenote/releases/download/v0.4.88/%E6%8B%A8%E5%8F%B6%E7%AC%94%E8%AE%B0_0.4.88_universal.dmg",
-        "sha256": "91c986f0b25d9da7ae78238d5c2f12ba6c904e98b73a29148b1e0fc6a0f6a29a"
+        "gitee": "https://gitee.com/guozhiyu/boyenote/releases/download/v0.4.89/%E6%8B%A8%E5%8F%B6%E7%AC%94%E8%AE%B0_0.4.89_universal.dmg",
+        "sha256": "50cdac1caf1761afceec115a9ad015c28583d81f8027e2ba616cf2e1b102cdb7"
       }
     },
     "windows": {
       "x64": {
-        "gitee": "https://gitee.com/guozhiyu/boyenote/releases/download/v0.4.88/%E6%8B%A8%E5%8F%B6%E7%AC%94%E8%AE%B0_0.4.88_x64-setup.exe",
-        "sha256": "659e32df78c1516b9f90ec3151d78ea65ebcb490578e56ed53e1a9463e73e017"
+        "gitee": "https://gitee.com/guozhiyu/boyenote/releases/download/v0.4.89/%E6%8B%A8%E5%8F%B6%E7%AC%94%E8%AE%B0_0.4.89_x64-setup.exe",
+        "sha256": "157797590a75b79dd9be0a1e65b48548e4c5662fc923f30246f5b1b204e1f957"
       }
     }
   }
