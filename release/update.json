@@ -1,9 +1,9 @@
 {
-  "version": "0.4.89",
-  "versionCode": 1407,
+  "version": "0.4.90",
+  "versionCode": 1408,
   "publishedAt": "2026-10-27",
   "required": false,
-  "notes": "本版本：\n· 修复 Windows 应用内更新：点立即重启后会正常安装、自动重启，版本不再停留旧版\n· 设置页切换标签不再卡顿（改为按需加载）",
+  "notes": "本版本：\n· 修复更新下载：关闭下载窗口后再打开，进度会接着走，不会再从 0 开始、也不会在两个进度之间反复跳",
   "apk": {
     "version": "0.4.86",
     "versionCode": 1406,
@@ -14,21 +14,21 @@
     }
   },
   "desktop": {
-    "version": "0.4.89",
+    "version": "0.4.90",
     "macos": {
       "aarch64": {
-        "gitee": "https://gitee.com/guozhiyu/boyenote/releases/download/v0.4.89/%E6%8B%A8%E5%8F%B6%E7%AC%94%E8%AE%B0_0.4.89_universal.dmg",
-        "sha256": "50cdac1caf1761afceec115a9ad015c28583d81f8027e2ba616cf2e1b102cdb7"
+        "gitee": "https://gitee.com/guozhiyu/boyenote/releases/download/v0.4.90/%E6%8B%A8%E5%8F%B6%E7%AC%94%E8%AE%B0_0.4.90_universal.dmg",
+        "sha256": "0b6bd93e90634c8119f197d93969deb9bf4300ce6424532b6cc528f10fb9e8a4"
       },
       "x64": {
-        "gitee": "https://gitee.com/guozhiyu/boyenote/releases/download/v0.4.89/%E6%8B%A8%E5%8F%B6%E7%AC%94%E8%AE%B0_0.4.89_universal.dmg",
-        "sha256": "50cdac1caf1761afceec115a9ad015c28583d81f8027e2ba616cf2e1b102cdb7"
+        "gitee": "https://gitee.com/guozhiyu/boyenote/releases/download/v0.4.90/%E6%8B%A8%E5%8F%B6%E7%AC%94%E8%AE%B0_0.4.90_universal.dmg",
+        "sha256": "0b6bd93e90634c8119f197d93969deb9bf4300ce6424532b6cc528f10fb9e8a4"
       }
     },
     "windows": {
       "x64": {
-        "gitee": "https://gitee.com/guozhiyu/boyenote/releases/download/v0.4.89/%E6%8B%A8%E5%8F%B6%E7%AC%94%E8%AE%B0_0.4.89_x64-setup.exe",
-        "sha256": "157797590a75b79dd9be0a1e65b48548e4c5662fc923f30246f5b1b204e1f957"
+        "gitee": "https://gitee.com/guozhiyu/boyenote/releases/download/v0.4.90/%E6%8B%A8%E5%8F%B6%E7%AC%94%E8%AE%B0_0.4.90_x64-setup.exe",
+        "sha256": "310265138a50822229e0069ed6880c691cd10a08f6c9854eb795d8049def3539"
       }
     }
   }
