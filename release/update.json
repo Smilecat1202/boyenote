@@ -18,17 +18,17 @@
     "macos": {
       "aarch64": {
         "gitee": "https://gitee.com/guozhiyu/boyenote/releases/download/v0.4.90/%E6%8B%A8%E5%8F%B6%E7%AC%94%E8%AE%B0_0.4.90_universal.dmg",
-        "sha256": "0b6bd93e90634c8119f197d93969deb9bf4300ce6424532b6cc528f10fb9e8a4"
+        "sha256": "132d3e575337a5e48b12f7a2ecde6760d78661d97dc0c1b4c0e55e53a5596376"
       },
       "x64": {
         "gitee": "https://gitee.com/guozhiyu/boyenote/releases/download/v0.4.90/%E6%8B%A8%E5%8F%B6%E7%AC%94%E8%AE%B0_0.4.90_universal.dmg",
-        "sha256": "0b6bd93e90634c8119f197d93969deb9bf4300ce6424532b6cc528f10fb9e8a4"
+        "sha256": "132d3e575337a5e48b12f7a2ecde6760d78661d97dc0c1b4c0e55e53a5596376"
       }
     },
     "windows": {
       "x64": {
         "gitee": "https://gitee.com/guozhiyu/boyenote/releases/download/v0.4.90/%E6%8B%A8%E5%8F%B6%E7%AC%94%E8%AE%B0_0.4.90_x64-setup.exe",
-        "sha256": "310265138a50822229e0069ed6880c691cd10a08f6c9854eb795d8049def3539"
+        "sha256": "b36f45a443ffdd5e80bc14e832979e794cd199897800835651c3b9e174aa9cb2"
       }
     }
   }
