@@ -9,7 +9,7 @@
 </p>
 
 <p align="center">
-  <img alt="version" src="https://img.shields.io/badge/version-0.4.69-2f7cf0">
+  <img alt="version" src="https://img.shields.io/badge/version-0.4.91-2f7cf0">
   <img alt="platform" src="https://img.shields.io/badge/platform-Android%20%7C%20macOS%20%7C%20Windows-8a94a6">
   <img alt="data" src="https://img.shields.io/badge/data-open%20Markdown-18a56b">
 </p>
@@ -54,13 +54,13 @@
 
 ## ⬇️ 下载
 
-应用**免费**，核心功能永久免费、无需注册。目前处于内测阶段，正式安装包将通过官网与 Releases 发布。
+应用**免费**，核心功能永久免费、无需注册。目前处于内测阶段，安装包通过仓库 [Releases](https://gitee.com/guozhiyu/boyenote/releases/latest) 发布，点进去按平台下载最新版即可。
 
 | 平台 | 状态 | 版本 | 安装包 |
 | --- | --- | --- | --- |
-| Android | ✅ 内测中 | 0.4.69 | `.apk`（Android 8+） |
-| macOS | ✅ 内测中 | 0.4.69 | `.dmg`（Apple Silicon / Intel） |
-| Windows | 🚧 开发中 | — | `.exe`（x64） |
+| Android | ✅ 内测中 | 0.4.91 | `.apk`（Android 8+） |
+| macOS | ✅ 内测中 | 0.4.91 | `.dmg`（Apple Silicon / Intel） |
+| Windows | ✅ 内测中 | 0.4.91 | `.exe`（x64） |
 | iOS / Linux | 📋 已规划 | — | — |
 
 > 安装包均带正式签名，下载后请核对校验和；Android 首次安装需允许「安装未知来源应用」。
@@ -74,7 +74,19 @@
 
 ## 📮 反馈与社区
 
-- 遇到 Bug 或想提功能建议，请直接 [提交 Issue](https://github.com/Smilecat1202/boyenote/issues/new/choose)。
+遇到 Bug 或想提功能建议，欢迎进内测群反馈，也可以 [提交 Issue](https://github.com/Smilecat1202/boyenote/issues/new/choose)。
+
+**微信内测群**：更新和安装包都在群里。群码 11 月 6 日前有效，过期或满员扫不进，就加下面的个人微信。
+
+<p align="center">
+  <img src="assets/wechat-group.png" width="260" alt="拨叶笔记内测群">
+</p>
+
+**个人微信**：群码过期或扫不进时加这个，备注「拨叶」，我拉你进群。
+
+<p align="center">
+  <img src="assets/wechat-personal.png" width="260" alt="个人微信">
+</p>
 
 ## 📄 版权说明
 
