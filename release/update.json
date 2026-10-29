@@ -14,21 +14,17 @@
     }
   },
   "desktop": {
-    "version": "0.4.90",
+    "version": "0.4.91",
     "macos": {
       "aarch64": {
-        "gitee": "https://gitee.com/guozhiyu/boyenote/releases/download/v0.4.90/%E6%8B%A8%E5%8F%B6%E7%AC%94%E8%AE%B0_0.4.90_universal.dmg",
-        "sha256": "132d3e575337a5e48b12f7a2ecde6760d78661d97dc0c1b4c0e55e53a5596376"
-      },
-      "x64": {
-        "gitee": "https://gitee.com/guozhiyu/boyenote/releases/download/v0.4.90/%E6%8B%A8%E5%8F%B6%E7%AC%94%E8%AE%B0_0.4.90_universal.dmg",
-        "sha256": "132d3e575337a5e48b12f7a2ecde6760d78661d97dc0c1b4c0e55e53a5596376"
+        "gitee": "https://gitee.com/guozhiyu/boyenote/releases/download/v0.4.91/cloudnote-0.4.91-mac-arm64.dmg",
+        "sha256": "e88ccdcd5cc8bb500bcd3b34e270689ba64e238dfd43751c913ba1e5e15203dd"
       }
     },
     "windows": {
       "x64": {
-        "gitee": "https://gitee.com/guozhiyu/boyenote/releases/download/v0.4.90/%E6%8B%A8%E5%8F%B6%E7%AC%94%E8%AE%B0_0.4.90_x64-setup.exe",
-        "sha256": "b36f45a443ffdd5e80bc14e832979e794cd199897800835651c3b9e174aa9cb2"
+        "gitee": "https://gitee.com/guozhiyu/boyenote/releases/download/v0.4.91/cloudnote-0.4.91-win-x64.exe",
+        "sha256": "6b53e60bf7c5c377cda9d3be61314775c2dd0e1ab0a760417ba3e1021d383a8c"
       }
     }
   }
