@@ -1,30 +1,30 @@
 {
-  "version": "0.4.91",
-  "versionCode": 1449,
-  "publishedAt": "2026-10-29",
+  "version": "0.4.92",
+  "versionCode": 1470,
+  "publishedAt": "2026-10-31",
   "required": false,
-  "notes": "本版本：\n· 日记支持定位和天气：阅读器能正常显示，写日记也能一键添加（点一下才取、不后台跟踪）\n· 标题可折叠，长按速记「+」直接进入录音转写\n· 阅读器支持多级嵌套列表、中文段落首行缩进\n· AI 助手页、空网盘首次连接引导优化\n· 修复回车分段保存后丢失、删除笔记附件不进回收站、含括号附件链接截断等问题",
+  "notes": "本版本：\n· 敏感凭证加密：API 密钥、网盘密码、剪藏配对令牌等默认以 AES-256-GCM 密文保存在本地，不再明文落盘；安全页可查看加密状态和凭证用途，小眼睛可看明文\n· 录音支持 AI 整理（桌面）：自动起标题、列要点、抽待办、按主题分段，原始转写保留可对照、可一键回退；右下角浮层看进度，可中止、可后台运行\n· 剪藏增强：知乎、小红书等需要 JS 加载的内容，改用浏览器内核渲染后再抓取，正文和图片更完整\n· 修复带尺寸标注的图片（如 |25%）报错裂图，以及 Windows 本地图片路径拼接导致的裂图\n· 录音转写偶发识别为空时自动重试；从云端恢复时显示实时扫描进度",
   "apk": {
-    "version": "0.4.91",
-    "versionCode": 1449,
+    "version": "0.4.92",
+    "versionCode": 1470,
     "arm64": {
-      "gitee": "https://gitee.com/guozhiyu/boyenote/releases/download/v0.4.91/cloudnote-0.4.91-android-arm64.apk",
-      "github": "https://github.com/Smilecat1202/boyenote/releases/download/v0.4.91/cloudnote-0.4.91-android-arm64.apk",
-      "sha256": "06018247565487c65e42dccaf884d9d056f228494ccbf20c95d516de1c2720d8"
+      "gitee": "https://gitee.com/guozhiyu/boyenote/releases/download/v0.4.92/cloudnote-0.4.92-android-arm64.apk",
+      "github": "https://github.com/Smilecat1202/boyenote/releases/download/v0.4.92/cloudnote-0.4.92-android-arm64.apk",
+      "sha256": "eea5bad89f67bcd1f5761d9002a2e1a943f72a7588b3bb986b6a5647f6a6d046"
     }
   },
   "desktop": {
-    "version": "0.4.91",
+    "version": "0.4.92",
     "macos": {
       "aarch64": {
-        "gitee": "https://gitee.com/guozhiyu/boyenote/releases/download/v0.4.91/cloudnote-0.4.91-mac-arm64.dmg",
-        "sha256": "e88ccdcd5cc8bb500bcd3b34e270689ba64e238dfd43751c913ba1e5e15203dd"
+        "gitee": "https://gitee.com/guozhiyu/boyenote/releases/download/v0.4.92/cloudnote-0.4.92-mac-arm64.dmg",
+        "sha256": "e395e8f6955b0bda0ccee11a1ad552d117f3d61754b8863414263a359a4de30d"
       }
     },
     "windows": {
       "x64": {
-        "gitee": "https://gitee.com/guozhiyu/boyenote/releases/download/v0.4.91/cloudnote-0.4.91-win-x64.exe",
-        "sha256": "6b53e60bf7c5c377cda9d3be61314775c2dd0e1ab0a760417ba3e1021d383a8c"
+        "gitee": "https://gitee.com/guozhiyu/boyenote/releases/download/v0.4.92/cloudnote-0.4.92-win-x64.exe",
+        "sha256": "b30d6f8b93d2f633e2fe3e8159309b8cda71b6e505caabf7d5a1ad9911608ef9"
       }
     }
   }
