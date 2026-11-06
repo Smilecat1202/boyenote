@@ -1,16 +1,15 @@
 {
-  "version": "0.5.0",
-  "versionCode": 1586,
-  "publishedAt": "2026-11-06",
+  "version": "0.5.1",
+  "versionCode": 1588,
+  "publishedAt": "2026-11-06T01:52:55.571Z",
   "required": false,
-  "notes": "本版本主要更新：\n· 新增「秒传」：同一 Wi-Fi/局域网下设备自动发现，无需手动输入 IP；配对时核对 SAS 指纹，传输全程端到端加密；支持整库同步，单边修改自动收敛、真冲突保守保留不覆盖，对端重启或网络变化后自动重连，无需重新配对\n· 状态胶囊修复：只配秒传、未配网盘时正确显示已配置/已同步，不再误报待配置\n· 语义索引优化：首次主动建立前提示一次资源占用，确认后再建；按模型真实上下文窗口切块，修复内置 bge-small 与小窗口云端模型超 512 token 报错",
+  "notes": "## 移动端\n\n修复：\n· 手机离开同一 Wi-Fi、切到蜂窝网络或电脑暂时不可达时，秒传状态如实变为「当前离线」，不再一直显示已连接；回到 Wi-Fi 后自动重连恢复\n· 云面板秒传卡在同步完成后正确复位，不再停在「同步中」",
   "apk": {
     "version": "0.5.0",
     "versionCode": 1586,
     "arm64": {
-      "gitee": "https://gitee.com/guozhiyu/boyenote/releases/download/v0.5.0/cloudnote-0.5.0-android-arm64.apk",
-      "github": "https://github.com/Smilecat1202/boyenote/releases/download/v0.5.0/cloudnote-0.5.0-android-arm64.apk",
-      "sha256": "b9479c44b9cdcd99f7b9071127e06e4f4d5a31e6aeb96d6d3fcb02a81a611646"
+      "gitee": "https://gitee.com/guozhiyu/boyenote/releases/download/v0.5.1/cloudnote-0.5.1-android-arm64.apk",
+      "sha256": "eb50139506b5308f0118be2c332d7843652c34090013c3f73fa8141a3b63bb6c"
     }
   },
   "desktop": {
