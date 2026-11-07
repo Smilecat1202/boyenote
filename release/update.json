@@ -1,1 +1,30 @@
-��슉��kޮȨ�*{^�ޛ��+!y�-�M��];O]�׏|�kz����_j[��^�y����y�����뢽�Q1|��d��슉��kޮȨ�*{^�ݪ��"�硶�l��"�眢oຌ�+�n����^���y���h�yhi��ӝ�rZ.vz-{Nvjwk�'Z�n�j�,����_k��{�����߷�g=ݧ\��^ӟ6W�g���睶�ָu��Ӿ9�׬��)��슉��i�r�j�!�"�硶�l��"�眢oຌ�+�n����^���y���h�yhi��ӝ�rZ.vz-{Nv���n�vh,����G\}����wq��٧�o�6{�u����\i�z��o��Ӈ;�G�ʹ��v�,Ǯ �מ��i����מr����3�,���2zz-{�ޕ�z�ݣ	塧�Nv��h����9��Ǯ��!knzm�6۝�s_[�N6�F���]�MZw�����on����[��Ѯt���<
+{
+  "version": "0.5.2",
+  "versionCode": 1603,
+  "publishedAt": "2026-11-07T13:51:49.866Z",
+  "required": false,
+  "notes": "## 桌面端\n\n· 修复同步大量文件时连续请求触发服务端限流（429）后同步中断的问题，遇到限流自动退避重试，优先采用服务端给出的等待时间\n· 同步列表请求遇到限流时给出明确提示，不再直接报错\n\n## 移动端\n\n· 修复同步大量文件触发服务端限流（429）导致同步中断的问题，遇到限流自动退避重试\n· 修复文件名过长时移入回收站失败（os error 36）：超长文件名按 UTF-8 边界截断，原始文件名通过映射保留，恢复时还原\n· 冲突副本文件名按长度预算截断，避免超长失败",
+  "apk": {
+    "version": "0.5.2",
+    "versionCode": 1603,
+    "arm64": {
+      "gitee": "https://gitee.com/guozhiyu/boyenote/releases/download/v0.5.2/cloudnote-0.5.2-android-arm64.apk",
+      "sha256": "71fa8bee6b71e2237cb12c93adc6d1e0582f1cb62cf79b455225da4df3007453"
+    }
+  },
+  "desktop": {
+    "version": "0.5.2",
+    "macos": {
+      "aarch64": {
+        "gitee": "https://gitee.com/guozhiyu/boyenote/releases/download/v0.5.2/cloudnote-0.5.2-mac-arm64.dmg",
+        "sha256": "0dcf30ef7b92c93caaa2ae6b682e58ddbf6591cae160f8ab6ff04c720ce7c206"
+      }
+    },
+    "windows": {
+      "x64": {
+        "gitee": "https://gitee.com/guozhiyu/boyenote/releases/download/v0.5.2/cloudnote-0.5.2-win-x64.exe",
+        "sha256": "bc02252ac19b904270a17e5d801ad6fb5ef8b2711dcc939b563f0a50338a4d48"
+      }
+    }
+  }
+}
