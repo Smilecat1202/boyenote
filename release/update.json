@@ -9,7 +9,7 @@
     "versionCode": 1603,
     "arm64": {
       "gitee": "https://gitee.com/guozhiyu/boyenote/releases/download/v0.5.2/cloudnote-0.5.2-android-arm64.apk",
-      "sha256": "71fa8bee6b71e2237cb12c93adc6d1e0582f1cb62cf79b455225da4df3007453"
+      "sha256": "db950106da5bfc2dbe4a54f92d4bf34d5ef7475778443ee81abb15376c3048f3"
     }
   },
   "desktop": {
