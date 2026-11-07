@@ -1,29 +1,29 @@
 {
-  "version": "0.5.1",
-  "versionCode": 1588,
-  "publishedAt": "2026-11-06T01:52:55.571Z",
+  "version": "0.5.2",
+  "versionCode": 1603,
+  "publishedAt": "2026-11-07T13:51:49.866Z",
   "required": false,
-  "notes": "## 移动端\n\n修复：\n· 手机离开同一 Wi-Fi、切到蜂窝网络或电脑暂时不可达时，秒传状态如实变为「当前离线」，不再一直显示已连接；回到 Wi-Fi 后自动重连恢复\n· 云面板秒传卡在同步完成后正确复位，不再停在「同步中」",
+  "notes": "## 桌面端\n\n· 修复同步大量文件时连续请求触发服务端限流（429）后同步中断的问题，遇到限流自动退避重试，优先采用服务端给出的等待时间\n· 同步列表请求遇到限流时给出明确提示，不再直接报错\n\n## 移动端\n\n· 修复同步大量文件触发服务端限流（429）导致同步中断的问题，遇到限流自动退避重试\n· 修复文件名过长时移入回收站失败（os error 36）：超长文件名按 UTF-8 边界截断，原始文件名通过映射保留，恢复时还原\n· 冲突副本文件名按长度预算截断，避免超长失败",
   "apk": {
     "version": "0.5.0",
     "versionCode": 1586,
     "arm64": {
-      "gitee": "https://gitee.com/guozhiyu/boyenote/releases/download/v0.5.1/cloudnote-0.5.1-android-arm64.apk",
-      "sha256": "eb50139506b5308f0118be2c332d7843652c34090013c3f73fa8141a3b63bb6c"
+      "gitee": "https://gitee.com/guozhiyu/boyenote/releases/download/v0.5.2/cloudnote-0.5.2-android-arm64.apk",
+      "sha256": "71fa8bee6b71e2237cb12c93adc6d1e0582f1cb62cf79b455225da4df3007453"
     }
   },
   "desktop": {
     "version": "0.5.0",
     "macos": {
       "aarch64": {
-        "gitee": "https://gitee.com/guozhiyu/boyenote/releases/download/v0.5.0/cloudnote-0.5.0-mac-arm64.dmg",
-        "sha256": "f8da790f6bb9c6ff214a5c716fbd4b6d6badfa530b47fa6f73605b491c72f397"
+        "gitee": "https://gitee.com/guozhiyu/boyenote/releases/download/v0.5.2/cloudnote-0.5.2-mac-arm64.dmg",
+        "sha256": "0dcf30ef7b92c93caaa2ae6b682e58ddbf6591cae160f8ab6ff04c720ce7c206"
       }
     },
     "windows": {
       "x64": {
-        "gitee": "https://gitee.com/guozhiyu/boyenote/releases/download/v0.5.0/cloudnote-0.5.0-win-x64.exe",
-        "sha256": "9cb9193ecfac4e6ccc8e46cc28dbd924cae61f06fe0073768c23020355bba5ba"
+        "gitee": "https://gitee.com/guozhiyu/boyenote/releases/download/v0.5.2/cloudnote-0.5.2-win-x64.exe",
+        "sha256": "bc02252ac19b904270a17e5d801ad6fb5ef8b2711dcc939b563f0a50338a4d48"
       }
     }
   }
