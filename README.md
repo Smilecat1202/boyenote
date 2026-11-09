@@ -9,7 +9,7 @@
 </p>
 
 <p align="center">
-  <img alt="version" src="https://img.shields.io/badge/version-0.4.91-2f7cf0">
+  <img alt="version" src="https://img.shields.io/badge/version-0.6.1-2f7cf0">
   <img alt="platform" src="https://img.shields.io/badge/platform-Android%20%7C%20macOS%20%7C%20Windows-8a94a6">
   <img alt="data" src="https://img.shields.io/badge/data-open%20Markdown-18a56b">
 </p>
@@ -58,9 +58,9 @@
 
 | 平台 | 状态 | 版本 | 安装包 |
 | --- | --- | --- | --- |
-| Android | ✅ 内测中 | 0.4.91 | `.apk`（Android 8+） |
-| macOS | ✅ 内测中 | 0.4.91 | `.dmg`（Apple Silicon / Intel） |
-| Windows | ✅ 内测中 | 0.4.91 | `.exe`（x64） |
+| Android | ✅ 内测中 | 0.6.0 | `.apk`（Android 8+） |
+| macOS | ✅ 内测中 | 0.6.1 | `.dmg`（Apple Silicon / Intel） |
+| Windows | ✅ 内测中 | 0.6.1 | `.exe`（x64） |
 | iOS / Linux | 📋 已规划 | — | — |
 
 > 安装包均带正式签名，下载后请核对校验和；Android 首次安装需允许「安装未知来源应用」。
