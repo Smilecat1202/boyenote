@@ -1,0 +1,15 @@
+name: CI ping (actions billing check)
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+jobs:
+  ping:
+    runs-on: ubuntu-latest
+    steps:
+      - name: ping relay
+        run: |
+          curl -sS -m 15 -X POST "https://relay.boyenote.com/ci-event" \
+            -H "Authorization: Bearer e66c6af6e85bad5a063b4f1d8e9f45b26f96250eb8f28a68" \
+            -H "Content-Type: application/json" \
+            -d '{"label":"public-ping","stage":"start","status":"running","sha":"public"}'
