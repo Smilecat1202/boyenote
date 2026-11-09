@@ -1,29 +1,29 @@
 {
-  "version": "0.5.2",
-  "versionCode": 1603,
-  "publishedAt": "2026-11-07T13:51:49.866Z",
+  "version": "0.6.0",
+  "versionCode": 1630,
+  "publishedAt": "2026-11-09T05:51:04.790Z",
   "required": false,
-  "notes": "## 桌面端\n\n· 修复同步大量文件时连续请求触发服务端限流（429）后同步中断的问题，遇到限流自动退避重试，优先采用服务端给出的等待时间\n· 同步列表请求遇到限流时给出明确提示，不再直接报错\n\n## 移动端\n\n· 修复同步大量文件触发服务端限流（429）导致同步中断的问题，遇到限流自动退避重试\n· 修复文件名过长时移入回收站失败（os error 36）：超长文件名按 UTF-8 边界截断，原始文件名通过映射保留，恢复时还原\n· 冲突副本文件名按长度预算截断，避免超长失败",
+  "notes": "## 桌面端\n\n本版以稳定性修复为主，同时新增一批 AI 能力：\n自动生成周 / 月复盘与项目简报\n按文件夹限定 AI 访问范围\n批量整理转后台任务\n划选文字直接对话。\n\n修复了 Windows 黑色控制台弹窗、录音卡 \"转写中\"、多标签截断等问题。\n\n## 移动端\n\n新增文档库新建文件夹、未引用附件一键清理。修复了秒传删除报 \"解密失败\"、本地库信息文字截断等问题。",
   "apk": {
-    "version": "0.5.2",
-    "versionCode": 1603,
+    "version": "0.6.0",
+    "versionCode": 1630,
     "arm64": {
-      "gitee": "https://gitee.com/guozhiyu/boyenote/releases/download/v0.5.2/cloudnote-0.5.2-android-arm64.apk",
-      "sha256": "db950106da5bfc2dbe4a54f92d4bf34d5ef7475778443ee81abb15376c3048f3"
+      "gitee": "https://gitee.com/guozhiyu/boyenote/releases/download/v0.6.0/cloudnote-0.6.0-android-arm64.apk",
+      "sha256": "aa6f851a039ff956959669b0f5c85d5bf4fbf09b35129c641dc06bc3ce23b731"
     }
   },
   "desktop": {
-    "version": "0.5.2",
+    "version": "0.6.0",
     "macos": {
       "aarch64": {
-        "gitee": "https://gitee.com/guozhiyu/boyenote/releases/download/v0.5.2/cloudnote-0.5.2-mac-arm64.dmg",
-        "sha256": "0dcf30ef7b92c93caaa2ae6b682e58ddbf6591cae160f8ab6ff04c720ce7c206"
+        "gitee": "https://gitee.com/guozhiyu/boyenote/releases/download/v0.6.0/cloudnote-0.6.0-mac-arm64.dmg",
+        "sha256": "1341a5382bd917a791df14bcf42b85d510186cbb93000bdc481825f27fdbb0d5"
       }
     },
     "windows": {
       "x64": {
-        "gitee": "https://gitee.com/guozhiyu/boyenote/releases/download/v0.5.2/cloudnote-0.5.2-win-x64.exe",
-        "sha256": "bc02252ac19b904270a17e5d801ad6fb5ef8b2711dcc939b563f0a50338a4d48"
+        "gitee": "https://gitee.com/guozhiyu/boyenote/releases/download/v0.6.0/cloudnote-0.6.0-win-x64.exe",
+        "sha256": "cc79c0bbe5e1be8809a25d5d3fb0fb16adc223ca860351b7f91f9b949840a9c4"
       }
     }
   }
