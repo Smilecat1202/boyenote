@@ -1,9 +1,9 @@
 {
-  "version": "0.6.0",
-  "versionCode": 1630,
-  "publishedAt": "2026-11-09T05:51:04.790Z",
-  "required": false,
-  "notes": "## 桌面端\n\n本版以稳定性修复为主，同时新增一批 AI 能力：\n自动生成周 / 月复盘与项目简报\n按文件夹限定 AI 访问范围\n批量整理转后台任务\n划选文字直接对话。\n\n修复了 Windows 黑色控制台弹窗、录音卡 \"转写中\"、多标签截断等问题。\n\n## 移动端\n\n新增文档库新建文件夹、未引用附件一键清理。修复了秒传删除报 \"解密失败\"、本地库信息文字截断等问题。",
+  "version": "0.6.1",
+  "versionCode": 0,
+  "publishedAt": "2026-11-09T10:38:52.793Z",
+  "required": true,
+  "notes": "## 桌面端\n\n- 修复更新后云端模型报\"API Key 无效\"、网盘凭证失效：凭证主密钥在授权被拒绝时不再被错误重置，可在需要时重新授权后继续使用原有加密数据\n- 修复本地模型长对话偶发请求失败：本地上下文窗口由 4096 扩到 8192，与前端配置对齐\n- 修复云端模型因温度参数被拒导致的请求失败，命中后自动去掉该参数重试\n- 修复思考模型长时间推理被误判为超时断连：思考过程等任何有效输出都会重置计时，不再误报\n- 本地引擎中断时不再显示\"网络抖动\"，改为按实际来源提示\"本地模型响应超时\"",
   "apk": {
     "version": "0.6.0",
     "versionCode": 1630,
@@ -13,17 +13,17 @@
     }
   },
   "desktop": {
-    "version": "0.6.0",
+    "version": "0.6.1",
     "macos": {
       "aarch64": {
-        "gitee": "https://gitee.com/guozhiyu/boyenote/releases/download/v0.6.0/cloudnote-0.6.0-mac-arm64.dmg",
-        "sha256": "1341a5382bd917a791df14bcf42b85d510186cbb93000bdc481825f27fdbb0d5"
+        "gitee": "https://gitee.com/guozhiyu/boyenote/releases/download/v0.6.1/cloudnote-0.6.1-mac-arm64.dmg",
+        "sha256": "3a8321420a356b20460df0eeb7f40de65fc4fa4b35dd8bf1b83b09cc63923531"
       }
     },
     "windows": {
       "x64": {
-        "gitee": "https://gitee.com/guozhiyu/boyenote/releases/download/v0.6.0/cloudnote-0.6.0-win-x64.exe",
-        "sha256": "cc79c0bbe5e1be8809a25d5d3fb0fb16adc223ca860351b7f91f9b949840a9c4"
+        "gitee": "https://gitee.com/guozhiyu/boyenote/releases/download/v0.6.1/cloudnote-0.6.1-win-x64.exe",
+        "sha256": "f4edd576d1508f53a04b1946a67854677af2f943b0330ab116f1af995000e650"
       }
     }
   }
